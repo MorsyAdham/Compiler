@@ -115,13 +115,13 @@ Example:
 
 2. Target Code Generation
 
-* Goal: Convert optimized intermediate code into machine/assembly code.
+   * Goal: Convert optimized intermediate code into machine/assembly code.
 
-* Tasks:
+   * Tasks:
 
-    - Allocate registers and memory.
+       - Allocate registers and memory.
 
-    - Generate platform-specific instructions.
+       - Generate platform-specific instructions.
 
 Example:
 
