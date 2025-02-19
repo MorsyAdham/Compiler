@@ -62,12 +62,12 @@ if (x > 5) { y = 10; }
 
 3. Semantic Analysis
 
-* Goal: Ensure the code makes logical sense.
+   * Goal: Ensure the code makes logical sense.
 
-* Tasks:
+   * Tasks:
 
-    - Type Checking: Verify compatible data types (e.g., no int + string).
-    - Scope Resolution: Check variable/function declarations and usage.
+       - Type Checking: Verify compatible data types (e.g., no int + string).
+       - Scope Resolution: Check variable/function declarations and usage.
 
 Example:
 
@@ -78,9 +78,9 @@ Example:
 
 4. Intermediate Code Generation
 
-* Goal: Generate a machine-independent representation (e.g., three-address code).
+   * Goal: Generate a machine-independent representation (e.g., three-address code).
 
-* Purpose: Simplifies optimization and translation to machine code.
+   * Purpose: Simplifies optimization and translation to machine code.
 
 Example:
 ```sh
@@ -97,15 +97,15 @@ a = t2
 ### Back-End Phases (Machine-Dependent)
 1. Code Optimization
 
-* Goal: Improve code efficiency without changing its functionality.
+   * Goal: Improve code efficiency without changing its functionality.
 
-* Techniques:
+   * Techniques:
 
-    - Constant Folding: Compute values at compile time (e.g., 5 * 3 → 15).
+       - Constant Folding: Compute values at compile time (e.g., 5 * 3 → 15).
 
-    - Dead Code Elimination: Remove unreachable code.
+       - Dead Code Elimination: Remove unreachable code.
 
-    - Loop Optimization: Simplify loops (e.g., unrolling).
+       - Loop Optimization: Simplify loops (e.g., unrolling).
 
 Example:
 
