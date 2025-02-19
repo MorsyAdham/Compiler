@@ -28,11 +28,11 @@ The compilation process is divided into six phases, grouped into two main parts:
 ### Front-End Phases (Machine-Independent)
 1. Lexical Analysis (Scanning)
 
-* Goal: Convert the source code into a stream of tokens (keywords, identifiers, operators, etc.).
+    * Goal: Convert the source code into a stream of tokens (keywords, identifiers, operators, etc.).
 
-* Tasks:
-    - Remove whitespace, comments, and irrelevant characters.
-    - Identify tokens using predefined patterns.
+    * Tasks:
+        - Remove whitespace, comments, and irrelevant characters.
+        - Identify tokens using predefined patterns.
 
 Example:
 ```sh
@@ -45,11 +45,11 @@ int x = 10 + 5;
 
 2. Syntax Analysis (Parsing)
 
-* Goal: Verify code structure against the language’s grammar rules.
+    * Goal: Verify code structure against the language’s grammar rules.
 
-* Tasks:
-    - Build a parse tree or Abstract Syntax Tree (AST) to represent code hierarchy.
-    - Detect syntax errors (e.g., missing semicolons, unmatched brackets).
+    * Tasks:
+        - Build a parse tree or Abstract Syntax Tree (AST) to represent code hierarchy.
+        - Detect syntax errors (e.g., missing semicolons, unmatched brackets).
 
 Example:
 ```sh
